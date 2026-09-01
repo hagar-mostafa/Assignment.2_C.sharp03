@@ -73,6 +73,15 @@ internal class Program
             Console.WriteLine($"{i + 1}. {books[i]}");
         }
 
+        //----------------Q9------------------------
+        Console.WriteLine("----------------------------------------------");
+        for (int i = 0; i < books.Length; i++)
+        {
+            if (books[i] == "The Pragmatic Programmer") { continue; }
+            Console.WriteLine($"{i + 1}. {books[i]}");
+        }
+        Console.WriteLine("----------------------------------------------");
+
 
 
     }
