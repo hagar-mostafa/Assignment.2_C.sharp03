@@ -58,6 +58,15 @@ internal class Program
             cnt++;
         } while (cnt < 3);
 
+        //----------------Q7------------------------
+        Console.WriteLine("----------------------------------------------");
+        foreach (string i in books)
+        {
+            Console.WriteLine($"{i}");
+        }
+        Console.WriteLine("----------------------------------------------");
+
+
     }
 }
 
