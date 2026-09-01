@@ -49,6 +49,15 @@ internal class Program
             j++;
         }
 
+        //----------------Q6------------------------
+        Console.WriteLine("----------------------------------------------");
+        int cnt = 0;
+        do
+        {
+            Console.WriteLine("Checking book...");
+            cnt++;
+        } while (cnt < 3);
+
     }
 }
 
