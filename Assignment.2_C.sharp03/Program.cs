@@ -39,6 +39,15 @@ internal class Program
             Console.WriteLine($"{i + 1}. {books[i]}");
         }
 
+        //----------------Q5------------------------
+        Console.WriteLine("----------------------------------------------");
+
+        int j = 0;
+        while (j < books.Length)
+        {
+            Console.WriteLine($"{j + 1}. {books[j]}");
+            j++;
+        }
 
     }
 }
