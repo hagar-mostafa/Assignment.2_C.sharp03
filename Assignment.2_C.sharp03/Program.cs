@@ -82,6 +82,13 @@ internal class Program
         }
         Console.WriteLine("----------------------------------------------");
 
+        //----------------Q10------------------------
+        void PrintFirstBook()
+        {
+            if (books.Length == 0) { return; }
+            Console.WriteLine(books[0]);
+        }
+        PrintFirstBook();
 
 
     }
