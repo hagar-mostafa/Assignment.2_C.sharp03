@@ -26,6 +26,12 @@ internal class Program
                 break;
         }
 
+        //----------------Q3------------------------
+        int Pages = 464;
+        string sizeLabe = (Pages > 300) ? sizeLabe = "Long Book" : sizeLabe = "Short Book";
+        Console.WriteLine(sizeLabe);
+
+
     }
 }
 
